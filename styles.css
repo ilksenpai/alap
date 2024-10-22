@@ -11,12 +11,21 @@ body {
     background-size: cover;
 }
 
+/* Heading container styles */
+.heading-container {
+    position: relative; /* Allows absolute positioning of child elements */
+    text-align: center; /* Center the text */
+}
+
 /* Lace image styles */
 #lace {
-    display: block; /* Center the image */
-    margin: 0 auto 0px; /* Add some space below the image */
-    width: 100%; /* Responsive */
+    width: 100%; /* Responsive width */
     max-width: 600px; /* Limit the maximum width */
+    position: absolute; /* Allows positioning relative to the container */
+    top: -30px; /* Adjust this value to move the image up/down */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center the image */
+    z-index: 1; /* Ensures the image is below the heading */
 }
 
 /* Heading styles */
@@ -24,7 +33,10 @@ h1 {
     font-size: 3rem;
     color: #ff1493; /* Barbie pink */
     text-shadow: 2px 2px 8px rgba(255, 182, 193, 0.6); /* Sparkly shadow */
+    position: relative; /* Keeps the heading above the lace */
+    z-index: 2; /* Ensures the heading is above the image */
 }
+
 
 /* Labels and inputs */
 label {
