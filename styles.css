@@ -14,7 +14,7 @@ body {
 /* Lace image styles */
 #lace {
     display: block; /* Center the image */
-    margin: 0 auto 20px; /* Add some space below the image */
+    margin: 0 auto 0px; /* Add some space below the image */
     width: 100%; /* Responsive */
     max-width: 600px; /* Limit the maximum width */
 }
