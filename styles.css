@@ -11,6 +11,14 @@ body {
     background-size: cover;
 }
 
+/* Lace image styles */
+#lace {
+    display: block; /* Center the image */
+    margin: 0 auto 20px; /* Add some space below the image */
+    width: 100%; /* Responsive */
+    max-width: 600px; /* Limit the maximum width */
+}
+
 /* Heading styles */
 h1 {
     font-size: 3rem;
