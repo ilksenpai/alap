@@ -4,11 +4,18 @@
 body {
     font-family: 'Comic Sans MS', sans-serif; /* Playful font */
     margin: 20px;
-    background-color: #ffe4e9; /* Soft pink background */
+    background: linear-gradient(135deg, #ffccff, #ff99cc, #ff66b2, #ff33aa); /* Pink gradient background */
+    background-size: 400% 400%;
+    animation: glitter 10s ease infinite; /* Glittery animation effect */
     color: #ff69b4; /* Hot pink text */
     text-align: center;
-    background-image: url('https://www.transparenttextures.com/patterns/glitter.png'); /* Glittery background */
-    background-size: cover;
+}
+
+/* Glitter animation */
+@keyframes glitter {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
 }
 
 /* Heading styles */
@@ -64,7 +71,7 @@ p {
     color: #ff1493;
 }
 
-/* Glitter text */
+/* Glittery text */
 #result {
     margin-top: 20px;
     font-size: 1.4rem;
