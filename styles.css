@@ -1,0 +1,66 @@
+/* styles.css */
+
+/* Apply to the whole page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f7f6;
+    color: #333;
+}
+
+/* Style the heading */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Form input labels */
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+/* Input fields */
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Button */
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1.1rem;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Styling the results */
+p {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+span {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#result {
+    margin-top: 20px;
+}
