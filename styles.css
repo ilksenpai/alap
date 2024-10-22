@@ -22,7 +22,7 @@ body {
     width: 100%; /* Responsive width */
     max-width: 600px; /* Limit the maximum width */
     position: absolute; /* Allows positioning relative to the container */
-    top: -30px; /* Adjust this value to move the image up/down */
+    top: 30px; /* Adjust this value to move the image up/down */
     left: 50%; /* Center horizontally */
     transform: translateX(-50%); /* Center the image */
     z-index: 1; /* Ensures the image is below the heading */
