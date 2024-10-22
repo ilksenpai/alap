@@ -2,7 +2,7 @@ function calculateFinances() {
     let curr_sp = parseFloat(document.getElementById("curr_sp").value); // current spent
     let payment = parseFloat(document.getElementById("payment").value); // payments
     let subs = parseFloat(document.getElementById("subs").value); // subscriptions
-    let dayCount = parseFloat(document.getElementById("dayCount").value); // days in the month
+    let dayCount = new Date(new Date().getFullYear(), new Date().getMonth() + 1, 0).getDate(); // automatically get the last day of the current month
     let currDay = new Date().getDate(); // automatically get the current day of the month
     let wage = parseFloat(document.getElementById("wage").value); // monthly income
     let saveGoal = parseFloat(document.getElementById("saveGoal").value); // saving goal
