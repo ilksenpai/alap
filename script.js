@@ -25,8 +25,8 @@ function calculateFinances() {
     document.getElementById("saving_account").innerHTML = `Saving Account Prediction: ${mustSave.toFixed(2)} TL`;
 
     if (tot_sp > max_sp) {
-        document.getElementById("result").innerHTML = `<span style="color:red;">You have been cursed by ALAP!</span>`;
+        document.getElementById("result").innerHTML = `<span style="color:red;">You have been CURSED by ALAP!</span>`;
     } else {
-        document.getElementById("result").innerHTML = `<span style="font-weight:bold;">You have been blessed by ALAP!</span>`;
+        document.getElementById("result").innerHTML = `<span style="font-weight:bold;">You have been BLESSED by ALAP!</span>`;
     }
 }
