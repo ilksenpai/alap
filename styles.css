@@ -4,7 +4,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
-    background-color: #E7CCCC;
+    background-color: #e7cccc;
     color: #333;
 }
 
@@ -36,7 +36,7 @@ input[type="number"] {
 
 /* Button */
 button {
-    background-color: #A5B68D;
+    background-color: #a5b68d;
     color: white;
     padding: 12px 20px;
     border: none;
