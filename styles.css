@@ -36,6 +36,14 @@ h1 {
     position: relative; /* Keeps the heading above the lace */
     z-index: 1; /* Ensures the heading is above the image */
 }
+/* Tagline styles */
+#tagline {
+    font-size: 0.8rem; /* Smaller font size */
+    color: #ff69b4; /* Hot pink color */
+    margin-top: 10px; /* Space above the tagline */
+    text-align: center; /* Center the text */
+    line-height: 1.5; /* Improve readability */
+}
 
 
 /* Labels and inputs */
