@@ -17,7 +17,7 @@ function calculateFinances() {
     let tot_sp = totRecurr_sp + oneTime_sp + debt;
     let save = wage - tot_sp;
     let fac = save / saveGoal;
-    let mustSave = perc * tot_sp;
+    let mustSave = perc / 100 * tot_sp;
     let save_sp = tot_sp + mustSave;
 
     document.getElementById("total_spending").innerHTML = `Total Spending Prediction: ${tot_sp.toFixed(2)} TL`;
