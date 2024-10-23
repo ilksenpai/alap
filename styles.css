@@ -39,9 +39,9 @@ h1 {
 /* Tagline styles */
 #tagline {
     font-family: 'Pacifico', cursive; /* Curvy, decorative font */
-    font-size: 1.2rem; /* Slightly larger font size */
+    font-size: 1.5rem; /* Slightly larger font size */
     color: #ff69b4; /* Hot pink color */
-    margin: 10px 50px 20px 50px; /* Margins from left and right */
+    margin: 10px 100px 20px 100px; /* Margins from left and right */
     text-align: center; /* Center the text */
     line-height: 1.5; /* Improve readability */
 }
