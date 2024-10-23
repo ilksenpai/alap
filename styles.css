@@ -38,13 +38,14 @@ h1 {
 }
 /* Tagline styles */
 #tagline {
-    font-family: 'Pacifico', cursive; /* Curvy, decorative font */
-    font-size: 1.5rem; /* Slightly larger font size */
-    color: #ff69b4; /* Hot pink color */
-    margin: 10px 100px 20px 100px; /* Margins from left and right */
-    text-align: center; /* Center the text */
-    line-height: 1.5; /* Improve readability */
+    font-family: 'Satisfy', cursive; /* Example with Dancing Script */
+    font-size: 1.2rem;
+    color: #ff69b4;
+    margin: 10px 50px 20px 50px;
+    text-align: center;
+    line-height: 1.5;
 }
+
 
 
 
