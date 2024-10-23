@@ -40,7 +40,7 @@ h1 {
 #tagline {
     font-size: 0.8rem; /* Smaller font size */
     color: #ff69b4; /* Hot pink color */
-    margin: 15px 0 25px 0; /* Same top and bottom margins as input boxes */
+    margin: 15px 0 100px 0; /* Same top and bottom margins as input boxes */
     text-align: center; /* Center the text */
     line-height: 1.5; /* Improve readability */
 }
