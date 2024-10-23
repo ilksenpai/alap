@@ -38,13 +38,14 @@ h1 {
 }
 /* Tagline styles */
 #tagline {
-    font-family: 'Satisfy', cursive; /* Example with Dancing Script */
-    font-size: 1.2rem;
+    font-family: 'Satisfy', cursive;
+    font-size: 1.5rem; /* Adjust this based on your preference */
     color: #ff69b4;
-    margin: 10px 50px 20px 50px;
+    margin: 0 50px; /* Adds left and right margins to align with input boxes */
     text-align: center;
     line-height: 1.5;
 }
+
 
 
 
