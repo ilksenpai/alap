@@ -39,7 +39,7 @@ h1 {
 /* Tagline styles */
 #tagline {
     font-family: 'Satisfy', cursive;
-    font-size: 2.5rem; /* Adjust this based on your preference */
+    font-size: 5rem; /* Adjust this based on your preference */
     color: #ff69b4;
     margin: 0 50px; /* Adds left and right margins to align with input boxes */
     text-align: center;
